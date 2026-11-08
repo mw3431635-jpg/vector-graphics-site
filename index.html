@@ -1,0 +1,40 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Основы векторной графики — Векторная графика</title><style>
+:root{--navy:#12304a;--teal:#087f8c;--coral:#f47762;--paper:#f7f5ef;--ink:#23313d}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 Arial,sans-serif}
+header{background:linear-gradient(120deg,#12304a,#087f8c);color:white;padding:26px max(6vw,24px)}
+header small{letter-spacing:.12em;text-transform:uppercase;opacity:.8}header h1{font-size:clamp(30px,5vw,54px);line-height:1.1;margin:12px 0}
+nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}nav a{color:white;text-decoration:none;border:1px solid #ffffff70;padding:8px 13px;border-radius:22px}
+nav a:hover{background:#ffffff22}main{max-width:1050px;margin:34px auto;padding:0 22px}
+.hero{width:100%;border-radius:18px;display:block;box-shadow:0 12px 32px #12304a20}
+h2{color:var(--navy);margin-top:34px}h3{color:var(--teal)}.lead{font-size:1.2rem;max-width:800px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:22px 0}
+.card{background:white;border:1px solid #e5e2d9;border-radius:14px;padding:18px;box-shadow:0 5px 18px #12304a0b}
+.pill{display:inline-block;background:#dff1ef;color:#075c65;border-radius:20px;padding:3px 10px;font-size:.85rem}
+table{border-collapse:collapse;width:100%;background:white;margin:18px 0;border-radius:12px;overflow:hidden}
+th,td{padding:12px;border:1px solid #e5e2d9;text-align:left;vertical-align:top}th{background:#e5f0ef;color:#12304a}
+.diagram{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:18px 0}
+.diagram span{background:white;border:2px solid #087f8c;border-radius:12px;padding:12px 16px;font-weight:bold}
+.diagram b{color:var(--coral);font-size:24px}footer{margin-top:50px;background:#12304a;color:#dce8ed;padding:24px max(6vw,24px);font-size:14px}
+a{color:#087f8c} .note{background:#fff3e9;border-left:4px solid var(--coral);padding:14px 18px;border-radius:8px}
+</style></head><body>
+<header><small>Учебный проект · Информационные и коммуникационные технологии</small><h1>Векторная графика</h1><div>Основные понятия, термины и характеристики</div><nav><a href="index.html" style="background:#ffffff25" >01 · Основы</a><a href="software.html" >02 · Программы</a><a href="history.html" >03 · Классификация и реферат</a></nav></header><main>
+<img class="hero" src="assets/vector-infographic.png" alt="Инфографика о геометрических объектах и кривых векторной графики">
+<p class="lead">Векторная графика — способ представления графической информации, при котором изображение описывается математически с помощью геометрических объектов.</p>
+<h2>Основные термины</h2>
+<div class="cards">
+<div class="card"><span class="pill">Базовое понятие</span><h3>Векторное изображение</h3>Набор геометрических объектов: точек, линий, кривых, окружностей, многоугольников и контуров.</div>
+<div class="card"><span class="pill">Элемент</span><h3>Контур</h3>Линия или замкнутая граница, задающая форму объекта.</div>
+<div class="card"><span class="pill">Геометрия</span><h3>Кривая Безье</h3>Математически описанная кривая, управляемая опорными точками и направляющими.</div>
+<div class="card"><span class="pill">Оформление</span><h3>Заливка и обводка</h3>Заливка задаёт внутренний цвет фигуры, обводка — цвет и толщину её контура.</div>
+<div class="card"><span class="pill">Формат</span><h3>SVG</h3>Открытый формат двумерной графики, широко используемый в веб-среде.</div>
+<div class="card"><span class="pill">Сравнение</span><h3>Растровая графика</h3>Изображение, состоящее из пикселей; хорошо подходит для фотографий и плавных цветовых переходов.</div>
+</div>
+<h2>Векторная и растровая графика</h2>
+<table><tr><th>Критерий</th><th>Векторная</th><th>Растровая</th></tr>
+<tr><td>Структура</td><td>Геометрические объекты и математические параметры</td><td>Сетка пикселей</td></tr>
+<tr><td>Масштабирование</td><td>Сохраняет чёткость при изменении размера</td><td>При увеличении могут проявляться пиксели</td></tr>
+<tr><td>Типичные задачи</td><td>Логотипы, схемы, чертежи, иконки</td><td>Фотографии, изображения с тонкими цветовыми переходами</td></tr>
+</table>
+<h2>Ключевые характеристики</h2>
+<div class="cards"><div class="card"><h3>Масштабируемость</h3>Изображение можно увеличивать и уменьшать без характерной потери чёткости.</div><div class="card"><h3>Редактируемость</h3>Отдельные объекты изменяются независимо друг от друга.</div><div class="card"><h3>Точность</h3>Геометрическое описание удобно для схем, чертежей и карт.</div></div>
+</main><footer>Учебный сайт по материалам реферата «Векторная графика» · 2025</footer></body></html>
